@@ -49,7 +49,7 @@ void Game::playRound() {
     }
 
     // show final hands and compute scores
-    std::cout << "Eindstanden deze ronde:";
+    std::cout << "Eindstanden deze ronde:" << std::endl;
     int lowest = std::numeric_limits<int>::max();
     for (const auto& p : m_players) {
         std::cout << p.getName() << " -> hand: ";
@@ -135,7 +135,7 @@ void Game::playerTurn(Player& player, Deck& deck) {
         // Since Deck::draw removed it, and we don't have putBottom, easiest is to push it back by creating a trivial
         // workaround: create a small vector of remaining cards by drawing all and then re-pushing with top first.
         // But that is complex; instead we'll inform the player that pass means top card is discarded. Simpler.
-        std::cout << player.getName() << " passeert. (top kaart wordt weggegooid) ";
+        std::cout << player.getName() << " passeert. (top kaart wordt weggegooid) " << std::endl;
     }
 
     // flush newline for next input
@@ -146,7 +146,7 @@ void Game::eliminatePlayers() {
     auto it = std::remove_if(m_players.begin(), m_players.end(), [](const Player& p) { return p.getLives() <= 0; });
     if (it != m_players.end()) {
         for (auto itr = it; itr != m_players.end(); ++itr) {
-            std::cout << itr->getName() << " is uitgeschakeld! ";
+            std::cout << itr->getName() << " is uitgeschakeld! " << std::endl;
         }
         m_players.erase(it, m_players.end());
     }
