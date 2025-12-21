@@ -1,0 +1,43 @@
+# Vraag 10: correct files on git - exclude build artifacts
+
+# Build directories
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Qt user files
+*.user
+*.user.*
+.qmake.stash
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Savegame files (optional - uncomment if you don't want to commit saves)
+# savegame.txt
