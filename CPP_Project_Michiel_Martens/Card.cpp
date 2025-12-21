@@ -1,13 +1,24 @@
 #include "Card.h"
 
 #include <sstream>
+#include <stdexcept>
 
+// Vraag 16: member initialization in constructors
 Card::Card() : m_rank(Rank::Two), m_suit(Suit::Hearts) {}
+
+// Vraag 16: member initialization in constructors
 Card::Card(Rank rank, Suit suit) : m_rank(rank), m_suit(suit) {}
 
+// Vraag 23: getter
+// Vraag 30: const function
 Rank Card::getRank() const { return m_rank; }
+
+// Vraag 23: getter
+// Vraag 30: const function
 Suit Card::getSuit() const { return m_suit; }
 
+// Vraag 20: useful member function
+// Vraag 30: const function
 int Card::value() const {
     int r = static_cast<int>(m_rank);
     if (m_rank == Rank::Ace) return 11; // eenvoudige regel: Aas = 11
@@ -15,6 +26,8 @@ int Card::value() const {
     return r; // 2..10
 }
 
+// Vraag 35: useful string class usage
+// Vraag 30: const function
 std::string Card::toString() const {
     std::string s;
     // rank
@@ -43,6 +56,7 @@ std::string Card::toString() const {
     return s;
 }
 
+// Vraag 26: useful friend function
 std::ostream& operator<<(std::ostream& os, const Card& card) {
     os << card.toString();
     return os;
