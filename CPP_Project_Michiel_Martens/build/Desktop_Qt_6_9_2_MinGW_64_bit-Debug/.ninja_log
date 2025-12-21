@@ -1,0 +1,25 @@
+# ninja log v6
+18	203	7869750864239003	NEWtestCPP_PJ_autogen/timestamp	7634417794eaa0
+225	798	7869750865113794	CMakeFiles/NEWtestCPP_PJ.dir/AIPlayer.cpp.obj	90d924cb15ad440
+18	203	7869750864239003	NEWtestCPP_PJ_autogen/mocs_compilation.cpp	7634417794eaa0
+52	63	7869750861369866	clean	577b940aee94fbd7
+18	203	7869750864239003	C:/Users/michi/Documents/PXL2025-2026/CPP/NEWtestCPP_PJ/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/NEWtestCPP_PJ_autogen/mocs_compilation.cpp	7634417794eaa0
+18	203	7869750864239003	C:/Users/michi/Documents/PXL2025-2026/CPP/NEWtestCPP_PJ/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/NEWtestCPP_PJ_autogen/timestamp	7634417794eaa0
+214	803	7869750865006368	CMakeFiles/NEWtestCPP_PJ.dir/PlayerBase.cpp.obj	ab2ac08de34571b9
+204	280	7869750864908709	CMakeFiles/NEWtestCPP_PJ.dir/NEWtestCPP_PJ_autogen/mocs_compilation.cpp.obj	f23917977934c64
+219	810	7869750865055179	CMakeFiles/NEWtestCPP_PJ.dir/HumanPlayer.cpp.obj	b8fd033d9699408
+209	858	7869750864957531	CMakeFiles/NEWtestCPP_PJ.dir/main.cpp.obj	b57074d6306dca0a
+231	1032	7869750865172456	CMakeFiles/NEWtestCPP_PJ.dir/Game.cpp.obj	d0cf874c6308bff0
+26	52	7869750861112662	CMakeFiles/clean.additional	baedbe210acaa455
+21	166	7869752139845277	NEWtestCPP_PJ_autogen/timestamp	7634417794eaa0
+21	166	7869752139845277	NEWtestCPP_PJ_autogen/mocs_compilation.cpp	7634417794eaa0
+21	166	7869752139845277	C:/Users/michi/Documents/PXL2025-2026/CPP/NEWtestCPP_PJ/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/NEWtestCPP_PJ_autogen/timestamp	7634417794eaa0
+21	166	7869752139845277	C:/Users/michi/Documents/PXL2025-2026/CPP/NEWtestCPP_PJ/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/NEWtestCPP_PJ_autogen/mocs_compilation.cpp	7634417794eaa0
+190	728	7869752141532602	CMakeFiles/NEWtestCPP_PJ.dir/Card.cpp.obj	3467a233f5edfb94
+180	794	7869752141432882	CMakeFiles/NEWtestCPP_PJ.dir/AIPlayer.cpp.obj	90d924cb15ad440
+172	797	7869752141352383	CMakeFiles/NEWtestCPP_PJ.dir/PlayerBase.cpp.obj	ab2ac08de34571b9
+175	818	7869752141381707	CMakeFiles/NEWtestCPP_PJ.dir/HumanPlayer.cpp.obj	b8fd033d9699408
+167	877	7869752141303565	CMakeFiles/NEWtestCPP_PJ.dir/main.cpp.obj	b57074d6306dca0a
+184	1028	7869752141471958	CMakeFiles/NEWtestCPP_PJ.dir/Game.cpp.obj	d0cf874c6308bff0
+195	1079	7869752141591543	CMakeFiles/NEWtestCPP_PJ.dir/Deck.cpp.obj	20f447a8af55c86
+1080	1264	7869752150433385	NEWtestCPP_PJ.exe	269b184b05d208d0

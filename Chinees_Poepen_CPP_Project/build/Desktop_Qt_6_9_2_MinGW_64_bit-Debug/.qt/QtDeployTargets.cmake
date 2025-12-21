@@ -1,3 +1,0 @@
-set(__QT_DEPLOY_TARGET_Chinees_Poepen_CPP_Project_FILE C:/Users/michi/Documents/GitHub/CPP_PROJECT/Chinees_Poepen_CPP_Project/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/Chinees_Poepen_CPP_Project.exe)
-set(__QT_DEPLOY_TARGET_Chinees_Poepen_CPP_Project_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_Chinees_Poepen_CPP_Project_RUNTIME_DLLS C:/Qt/6.9.2/mingw_64/bin/Qt6Core.dll)
