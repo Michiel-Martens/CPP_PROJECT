@@ -4,16 +4,19 @@
 
 namespace ChinesePoepen {
 
+// Vraag 17: constructor forwarding
 AIPlayer::AIPlayer()
     : PlayerBase("AI", 3)
 {
 }
 
+// Vraag 16: member initialization via base class constructor
 AIPlayer::AIPlayer(const std::string& name, int lives)
     : PlayerBase(name, lives)
 {
 }
 
+// Vraag 14: copy constructor
 AIPlayer::AIPlayer(const AIPlayer& other)
     : PlayerBase(other)
 {
@@ -21,11 +24,13 @@ AIPlayer::AIPlayer(const AIPlayer& other)
 
 AIPlayer::~AIPlayer() = default;
 
-// Heel simpele AI: enkel ruilen als de topkaart beter is dan de slechtste kaart in de hand
+// Vraag 18: polymorphism - override virtual function
+// Vraag 34: modern call-by-reference (Deck& deck)
 void AIPlayer::takeTurn(Deck& deck) {
     std::cout << "\nBeurt van (AI) " << getName()
               << " (levens: " << getLives() << ")\n";
 
+    // Vraag 31: useful bool
     if (deck.empty()) {
         std::cout << "Deck is leeg — AI kan niet ruilen.\n";
         return;
@@ -35,7 +40,6 @@ void AIPlayer::takeTurn(Deck& deck) {
     std::cout << "AI ziet top kaart: " << top << "\n";
 
     if (getHand().empty()) {
-        // niets te ruilen
         return;
     }
 
@@ -50,13 +54,15 @@ void AIPlayer::takeTurn(Deck& deck) {
         }
     }
 
-    // AI ruilt enkel als topkaart beter is dan de slechtste kaart
+    // Vraag 31: useful bool - AI ruilt enkel als topkaart beter is
     if (top.value() > worstValue) {
+        // Vraag 36: container class usage
         std::vector<Card> newHand = getHand();
         Card replaced = newHand[worstIndex];
         newHand[worstIndex] = top;
 
         clearHand();
+        // Vraag 29: const reference in range-based for
         for (const auto& c : newHand) {
             addCard(c);
         }
