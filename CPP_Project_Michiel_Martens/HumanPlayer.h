@@ -6,18 +6,23 @@
 
 namespace ChinesePoepen {
 
+// Vraag 18: useful proven (dynamic) polymorphism - derived class
 class HumanPlayer : public PlayerBase {
 public:
+    // Vraag 12: default constructor
     HumanPlayer();
+    
+    // Vraag 13: parameterized constructor
     HumanPlayer(const std::string& name, int lives);
 
-    // copy ctor
+    // Vraag 14: copy ctor
     HumanPlayer(const HumanPlayer& other);
 
-    // destructor
+    // Vraag 15: destructor
     ~HumanPlayer() override;
 
-    // override van virtuele functie
+    // Vraag 18: polymorphism - override van virtuele functie
+    // Vraag 20: useful member function
     void takeTurn(Deck& deck) override;
 };
 
