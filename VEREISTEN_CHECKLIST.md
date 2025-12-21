@@ -60,7 +60,8 @@
 
 ### ⚠️ Vraag 8: Fully working project
 **Status:** WAAR (te testen)  
-**Bewijs:** Spel is volledig speelbaar, alle features werken
+**Bewijs:** Spel kan enkel volledig werken via het .exe bestand in de build en eerst moet
+            dit 'chcp 65001' gerunt worden omdat anders de symbolen niet zichtbaar zijn.
 
 ### ✅ Vraag 9: Sufficient git commits
 **Status:** WAAR  
